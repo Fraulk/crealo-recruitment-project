@@ -15,7 +15,7 @@ npm run dev
    
 > | *i* |: You can use `react-router-dom` (the npm package is already added)  
 
-We'd like to add the `<Books />` page to the router, and then edit the `<Navbar />` components so that it correctly links to the new page
+We'd like to add the `<Books />` page to the router
 
 ---
 
