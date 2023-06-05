@@ -30,7 +30,15 @@ const Books = () => {
     )
 }
 
-const BookDetails = (props: {book: {id: number, title: string, body: string}}) => {
+interface BookDetailsProps {
+    book: {
+        id: number,
+        title: string,
+        body: string
+    }
+}
+
+const BookDetails = (props: BookDetailsProps) => {
     const {title, body} = props.book
 
     return (
